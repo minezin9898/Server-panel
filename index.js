@@ -6,8 +6,8 @@ const PORT = 3000;
 
 // ========== CONFIGURAÇÕES ==========
 const PANEL_URL = 'https://backend.magmanode.com'; // API do MagmaNode
-const SERVER_ID = 'a1f986de'; // ID do seu servidor MagmaNode
-const CLIENT_TOKEN = 'ptlc_ScEq6lIguLywtafxD55MEeFZldxUwzTZeHOYhgRFUAl'; // Seu token da API
+const SERVER_ID = '5000e482'; // ID do seu servidor MagmaNode
+const CLIENT_TOKEN = 'ptlc_yahBetGLQysUBQUc3hX0ZSC6x34keTi4F1Z4oRqgWXX'; // Seu token da API
 
 // ========== MIDDLEWARE ==========
 app.use(express.json());
@@ -89,8 +89,8 @@ app.get('/api/status', async (req, res) => {
 
 app.get('/api/info', (req, res) => {
   res.json({
-    ip: 'emerald.magmanode.com',
-    porta: '31266',
+    ip: 'dynamic-7.magmanode.com',
+    porta: '25662',
     mensagem: 'Servidor Minecraft Bedrock configurado',
   });
 });
